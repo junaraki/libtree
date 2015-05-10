@@ -1,7 +1,7 @@
 2015-05-10  Jun Araki  <mail@junaraki.net>
 
     * Libtree 0.6.0:
-    - Implemented breadth-first search in the ordered tree class.
+    - Implemented breadth-first search in OrderedTree.
     - Added minor enhancements, and fixed minor bugs.
 
 2014-06-05  Jun Araki  <mail@junaraki.net>
