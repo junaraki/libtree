@@ -1,0 +1,40 @@
+2015-05-10  Jun Araki  <mail@junaraki.net>
+
+    * Libtree 0.6.0:
+    - Implemented breadth-first search in the ordered tree class.
+    - Added minor enhancements, and fixed minor bugs.
+
+2014-06-05  Jun Araki  <mail@junaraki.net>
+
+    * Libtree 0.5.0:
+    - Implemented a class for a binary tree.
+
+2014-04-02  Jun Araki  <mail@junaraki.net>
+
+    * Libtree 0.4.0:
+    - Refactored the global design so the Tree interface supports operations on both an entire tree and an individual node without making a sharp distinction between them.
+
+2012-10-07  Jun Araki  <mail@junaraki.net>
+
+    * Libtree 0.3.2:
+    - Added the method toString() in AbstractedRootedTree to provide a string representation of a tree.
+    - Added a function to sort children of an ordered tree.
+
+2011-06-30  Jun Araki  <mail@junaraki.net>
+
+    * Libtree 0.3:
+    - Distinguished interfaces between Tree and RootedTree, and between TreeNode and RootedTreeNode.
+    - Added several basic operations for the siblings of a tree node.
+    - Implemented classes for a binary search tree with some basic operations for tree walks, insertion, and deletion.
+
+2011-06-24  Jun Araki  <mail@junaraki.net>
+
+    * Libtree 0.2:
+    - Added several basic operations for the root of a tree, and for the ancestors and descendants of a tree node.
+    - Implemented classes for an unordered tree and ordered tree.
+
+2011-06-19  Jun Araki  <mail@junaraki.net>
+
+    * Libtree 0.1:
+    - Initial release.
+    - Supported the most fundamental parts of the tree data structure and operations associated with it.

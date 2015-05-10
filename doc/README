@@ -1,0 +1,42 @@
+Libtree version 0.4.0
+
+Copyright (C) 2011-2014 Jun Araki
+
+Table of contents
+1. Introduction
+2. How to use this software
+3. License information
+
+1. Introduction
+Libtree is a general-purpose tree library implemented in Java to provide
+different sets of tree data structures and data operations for them.
+
+2. How to use this software
+The software requires Java 7, or any later version of Java.  The tree data
+structure provided by the software can have nodes of an arbitrary type.  Below
+is an example of using a tree whose nodes are integers.
+
+  OrderedTree<Integer> tree = new OrderedTree<Integer>(1);
+  tree.add(2);
+  tree.add(3);
+
+For more information about the software, see the javadoc and following website:
+http://junaraki.net/software/libtree/ .
+
+3. License information
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program; if not, write to the Free Software Foundation, Inc., 59 Temple
+Place - Suite 330, Boston, MA 02111-1307, USA.
+
+For more information, bug reports and fixes, you can contact:
+  Jun Araki
+  mail@junaraki.net
