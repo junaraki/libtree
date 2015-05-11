@@ -1,6 +1,6 @@
-Libtree version 0.4.0
+Libtree version 0.6.0
 
-Copyright (C) 2011-2014 Jun Araki
+Copyright (C) 2011-2015 Jun Araki
 
 Table of contents
 1. Introduction
@@ -12,7 +12,7 @@ Libtree is a general-purpose tree library implemented in Java to provide
 different sets of tree data structures and data operations for them.
 
 2. How to use this software
-The software requires Java 7, or any later version of Java.  The tree data
+The software requires Java 8, or any later version of Java.  The tree data
 structure provided by the software can have nodes of an arbitrary type.  Below
 is an example of using a tree whose nodes are integers.
 
